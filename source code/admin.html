@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head><script language="javascript">
+        function check()
+        {
+        var x,y;
+        x=frm.nm1.value;
+        y=frm.nm2.value;
+         if(x=="" ||y=="")
+        {
+        alert("no fields can be blank");
+        return false;
+        }
+        if(x=="riya" && y=="ayushivi1404")
+        {
+        alert("correct user");
+        return true;
+        }
+         else
+        {
+        alert("Incorrect user");
+        return false;
+        }
+        }
+        </script>
+        </head>
+        <title>
+            ADMIN LOGIN
+        </title>
+    </head>
+    <BODY> 
+        <CENTER>
+           <H1> <FONT SIZE=+6>ADMIN LOGIN</FONT></H1><HR><BR><BR>
+        
+<head>
+
+<body>
+<form name="frm" onsubmit="return check();" method="get" action="dash1.html">
+<b>Enter Name</b><input type="text" name="nm1" size=20><br><br>
+Password<input type="password" name="nm2" size=20><br>
+ <input type="submit" value="submit">
+</form>
+</body></html>
